@@ -1,0 +1,418 @@
+/* Aula 4 External*/
+/*Lembrando que todo mundo pode ver os comentários desse projeto*/
+
+body
+{
+    padding-bottom: 500px;
+}
+
+h3
+{
+    color: green;
+}
+
+/* classes */
+.paragraph
+{
+    background-color: #000;
+    color: ghostwhite;
+    padding: 5px;
+}
+
+/* Id */
+#exclusive-title
+{
+    background-color: cadetblue;
+    color: black;
+    padding: 10px;
+}
+/* Nome de Cores */
+.color-name
+{
+   color: darkred;
+}
+/* Hexadecimal */
+.hex
+{
+ color: #55a398;
+}
+/* Hex Simples quando se repetem pode se utilizar 6 digítos */
+.simple-hex
+{
+    color: #000;
+}
+/* RGB */
+.rgb
+{
+    color: rgb(90, 46, 107);
+}
+/* RGBA */
+.rgba
+{
+    color: rgba(100, 99, 45, 0.3)
+}
+/* HSL */
+.hsl
+{
+    color: hsl(100, 20%, 50%)
+}
+/* Background */
+.bg
+{
+    background-color: cadetblue;
+    color: #000;
+}
+.bg-2
+{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+/* RGGBA Background */
+.rgba-background
+{
+    background-color: rgba(90,120,20,0.2);
+    color: #000;
+}
+/* Background Imagem */
+.bg-img
+{
+    background-image: url("../img/329573cf29ebdacdda46ec57d9307691.jpg");
+    padding: 10px;
+    color: aliceblue;
+}
+/* Centralizando Imagem */
+.not-centered,
+.centered
+{
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/1_f_IiKnMXNcgHf-SDjisz5Q.jpg");
+}
+
+.centered
+{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura  */
+.heigth-width
+{
+    height: 200px;
+    width: 100px;
+    background-color: #55a398;
+}
+/* Padding */
+.padding
+
+{
+    padding: 20px;
+    background-color: #000;
+    color: aliceblue;
+}
+/* Padding Individual */
+.padding-individual
+{
+    background-color: #222;
+    color: beige;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Properties-Padding */
+.shorthand-padding
+
+{
+   background-color: #222;
+   color: antiquewhite;
+   padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2
+{
+    background-color: #555;
+    padding: 10px 20px;
+}
+/* padding: 10px 20px 10px 20px */
+
+.without-boder-box
+{
+    background-color: #55a398;
+    color: #000;
+    width: 400px;
+    padding: 50px;
+}
+.boder-box
+{
+    background-color: #a4e2da;
+    color: #000;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+/* Border */
+.border
+{
+    border: 5px solid red; 
+    padding: 10px;
+}
+
+.border-2
+{
+    border: 5px dotted darkred;
+    padding: 20px;
+}
+
+/* Bordas Indíviduais */
+
+.border-left
+{
+    border-left: 3px solid red;
+    background-color: #555;
+    padding: 50px;
+}
+
+.border-bottom
+{
+    border-bottom: 4px double green;
+    background-color: #a4e2da;
+    padding: 50px;
+}
+.rounded
+{
+    
+    background-color: green;
+    color:#000;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* Margem */
+.margin-top
+{
+    margin-top: 40px;
+    background-color: #555;
+}
+.margin
+{
+    margin: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+
+}
+.margin-shorthand
+{
+    background-color: darkorange;
+    margin: 10px 20px;
+}
+
+/* Box Model */
+
+.box-model
+{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid darkmagenta;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+
+}
+/* Text aligned ( Texto alinhado) */
+.text-aligned
+{
+    text-align: right;
+}
+
+.conteiner-text-center
+{
+    text-align: center;
+    width: 300px;
+    border: 3px solid darkred;
+    padding: 10px;
+}
+/* Dececoração de Texto */
+.underline
+{
+    text-decoration: underline;
+}
+.line-through
+{
+    text-decoration: line-through;
+}
+.remove-underline
+{
+    text-decoration: none;
+    color: aqua;
+}
+
+/* Text Transform */
+.upper
+{
+    text-transform: uppercase;
+}
+.lower
+{
+    text-transform: lowercase;
+}
+
+/* Letter Spacing */
+.spacing
+{
+    letter-spacing: 3px;
+}
+
+/* Fontes */
+.serif
+{
+    font-family: Georgia;
+}
+.cursive
+{
+    font-family: cursive;
+}
+.monospace
+{
+    font-style: "Courier New";
+}
+
+/* Styles Font */
+
+.italico
+{
+    font-style: italic;
+    font-family: Georgia;
+}
+.obliquo
+{
+    font-style: oblique;
+    font-family: Georgia;
+}
+
+/* Font Weigth */
+.bold
+{
+    font-weight: 600;
+}
+.thin
+{
+    font-weight: 100;
+}
+
+/* Font Size */
+.small
+{
+    font-size: 6px;
+}
+.big
+{
+    font-size: xx-large;
+}
+
+/* Display */
+.inline-box
+{
+    width: 50px;
+    height: 50px;
+    background-color: #a4e2da;
+    margin: 10px;
+    display: inline-block;
+}
+.invisible
+{
+    display: none;
+}
+
+/* Posições */
+.static
+{
+    position: static;
+    background-color: crimson;
+    color: aliceblue;
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+}
+/* Relative */
+.relative
+{
+    position: relative;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: larger;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+
+}
+/* Absolute */
+/* .absolute
+{
+    position: absolute;
+    background-color: brown;
+    color: aliceblue;
+    width: 200px;
+    height: 200px;
+    top: 2px;
+    left: 2px;
+
+    
+} */
+
+/* Relative-Absolute */
+
+.relative-conteiner
+{
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkred;
+    margin-top: 150px;
+    position: relative;
+}
+
+.absolute
+{
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    background-color: red; 
+}
+.absolute2
+{
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px; 
+    background-color: cadetblue;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkblue;
+    margin-top: 150px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Sticky */
+.sticky
+{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    color: #000;
+    border: 1px solid burlywood;
+    position: sticky;
+    top: 10px
+}
